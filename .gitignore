@@ -1,0 +1,33 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# YOLO model weights
+*.pt
+yolov8n.pt
+
+# Training runs and results
+runs/
+YOLOv8/
+
+# Cache files
+**/__pycache__/
+*.pyc
+*.pyo
+*.cache
+
+# Dataset images (too large for GitHub)
+train/images/
+val/images/
+test/images/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
