@@ -19,6 +19,7 @@ YOLOv8/
 # Dataset images (too large for GitHub)
 val/images/
 test/images/
+train/images/
 
 # IDE
 .vscode/
