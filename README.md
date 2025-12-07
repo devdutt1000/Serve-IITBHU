@@ -24,7 +24,7 @@ This project implements military object detection using YOLOv8 trained on a cust
 
 ## Training
 
-The model was trained using YOLOv8n (nano) for 68 epochs with the following settings:
+The model was trained using YOLOv8n (nano) for 100 epochs with the following settings:
 - Batch size: 16
 - Image size: 640x640
 - GPU: NVIDIA GeForce GTX 1650 (4GB)
@@ -32,7 +32,7 @@ The model was trained using YOLOv8n (nano) for 68 epochs with the following sett
 - Early stopping patience: 20 epochs
 
 ### Training Results
-- Best mAP50: 51.1% (epoch 68)
+- Best mAP50: 51.8% (epoch 100)
 - Initial mAP50: 23.2% (epoch 1)
 
 ## Files

@@ -8,7 +8,6 @@ env/
 yolov8n.pt
 
 # Training runs and results
-runs/
 YOLOv8/
 
 # Cache files
@@ -18,7 +17,6 @@ YOLOv8/
 *.cache
 
 # Dataset images (too large for GitHub)
-train/images/
 val/images/
 test/images/
 
