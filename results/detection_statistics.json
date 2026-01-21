@@ -1,0 +1,19 @@
+{
+  "total_images": 1396,
+  "images_with_detections": 1250,
+  "total_detections": 2370,
+  "detections_per_class": {
+    "camouflage_soldier": 393,
+    "weapon": 9,
+    "military_tank": 980,
+    "military_truck": 85,
+    "military_vehicle": 77,
+    "civilian": 1,
+    "soldier": 382,
+    "civilian_vehicle": 23,
+    "military_artillery": 52,
+    "trench": 0,
+    "military_aircraft": 243,
+    "military_warship": 125
+  }
+}

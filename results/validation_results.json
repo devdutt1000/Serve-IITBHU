@@ -1,0 +1,70 @@
+{
+  "timestamp": "2025-12-16T17:27:22.076508",
+  "model_path": "/kaggle/working/train/weights/best.pt",
+  "dataset_path": "/kaggle/input/military-object-dataset/military_object_dataset",
+  "configuration": {
+    "imgsz": 640,
+    "batch": 16,
+    "device": "0",
+    "workers": 8,
+    "conf_thres": 0.001,
+    "iou_thres": 0.6,
+    "max_det": 300,
+    "save_json": true,
+    "save_txt": true,
+    "plots": true,
+    "verbose": true
+  },
+  "overall_metrics": {
+    "mAP@50": 0.5326277292841944,
+    "mAP@50-95": 0.34823821420687534,
+    "precision": 0.670585072999242,
+    "recall": 0.4996276053092204
+  },
+  "per_class_metrics": {
+    "camouflage_soldier": {
+      "mAP@50": 0.7332067857528027,
+      "mAP@50-95": 0.3956111542425887
+    },
+    "weapon": {
+      "mAP@50": 0.6477945636152145,
+      "mAP@50-95": 0.42673142587083
+    },
+    "military_tank": {
+      "mAP@50": 0.8845200598485473,
+      "mAP@50-95": 0.6143755036898418
+    },
+    "military_truck": {
+      "mAP@50": 0.5935653743154845,
+      "mAP@50-95": 0.3695804285861664
+    },
+    "military_vehicle": {
+      "mAP@50": 0.611115689725099,
+      "mAP@50-95": 0.4515944222870905
+    },
+    "civilian": {
+      "mAP@50": 0.0,
+      "mAP@50-95": 0.0
+    },
+    "soldier": {
+      "mAP@50": 0.6912293409502827,
+      "mAP@50-95": 0.3923233167690705
+    },
+    "civilian_vehicle": {
+      "mAP@50": 0.2962882526474775,
+      "mAP@50-95": 0.16654706589746435
+    },
+    "military_artillery": {
+      "mAP@50": 0.477129812953224,
+      "mAP@50-95": 0.30844428096092286
+    },
+    "trench": {
+      "mAP@50": 0.0,
+      "mAP@50-95": 0.0
+    },
+    "military_aircraft": {
+      "mAP@50": 0.9240551423180072,
+      "mAP@50-95": 0.705412757971653
+    }
+  }
+}

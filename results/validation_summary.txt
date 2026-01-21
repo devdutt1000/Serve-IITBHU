@@ -1,0 +1,46 @@
+VALIDATION SUMMARY
+============================================================
+
+Timestamp: 2025-12-16T17:27:22.076508
+Model: /kaggle/working/train/weights/best.pt
+
+Overall Metrics:
+  mAP@50:     0.5326
+  mAP@50-95:  0.3482
+  Precision:  0.6706
+  Recall:     0.4996
+
+Per-Class Metrics:
+  camouflage_soldier:
+    mAP@50: 0.7332
+    mAP@50-95: 0.3956
+  weapon:
+    mAP@50: 0.6478
+    mAP@50-95: 0.4267
+  military_tank:
+    mAP@50: 0.8845
+    mAP@50-95: 0.6144
+  military_truck:
+    mAP@50: 0.5936
+    mAP@50-95: 0.3696
+  military_vehicle:
+    mAP@50: 0.6111
+    mAP@50-95: 0.4516
+  civilian:
+    mAP@50: 0.0000
+    mAP@50-95: 0.0000
+  soldier:
+    mAP@50: 0.6912
+    mAP@50-95: 0.3923
+  civilian_vehicle:
+    mAP@50: 0.2963
+    mAP@50-95: 0.1665
+  military_artillery:
+    mAP@50: 0.4771
+    mAP@50-95: 0.3084
+  trench:
+    mAP@50: 0.0000
+    mAP@50-95: 0.0000
+  military_aircraft:
+    mAP@50: 0.9241
+    mAP@50-95: 0.7054

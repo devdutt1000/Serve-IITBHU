@@ -1,0 +1,33 @@
+
+INFERENCE SUMMARY REPORT
+============================================================
+
+Model: /kaggle/working/train/weights/best.pt
+Test Images: /kaggle/input/military-object-dataset/military_object_dataset/test/images
+
+Configuration:
+  - Image Size: 640
+  - Confidence Threshold: 0.25
+  - IOU Threshold: 0.45
+  - Max Detections: 300
+
+Results:
+  - Total Images: 1396
+  - Images with Detections: 1250
+  - Total Detections: 2370
+  - Average Detections per Image: 1.70
+
+Detections per Class:
+  - military_tank: 980 (41.4%)
+  - camouflage_soldier: 393 (16.6%)
+  - soldier: 382 (16.1%)
+  - military_aircraft: 243 (10.3%)
+  - military_warship: 125 (5.3%)
+  - military_truck: 85 (3.6%)
+  - military_vehicle: 77 (3.2%)
+  - military_artillery: 52 (2.2%)
+  - civilian_vehicle: 23 (1.0%)
+  - weapon: 9 (0.4%)
+  - civilian: 1 (0.0%)
+
+============================================================
